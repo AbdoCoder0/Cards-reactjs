@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+
+/* .all{
+    display: flex;
+} */
+
+.fullCard { 
+    height: 250px;
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid rgb(202, 197, 197);
+    border-radius: 15px;
+}
+
+
+.left-card {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gold;
+    border-radius: 15px;
+}
+
+.left-card img {
+    width: fit-content;
+    height:250px;
+    object-fit: contain;
+}
+
+.right-card {
+    width: 250px;
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.right-card h3 {
+    line-height: 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0a1d37;
+}
+
+.right-card p {
+    font-size: .85rem;
+    font-weight: 400;
+    color: darkgrey;
+}
+
+.infos-sup {
+    margin-top: 50px;
+}
+
+.infos-sup p {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #0a1d37;
+}
+
+.inline-infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline-infos p {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #0a1d37;
+}
+
+.block-infos {
+    display: flex;
+    justify-content: start;
+}
